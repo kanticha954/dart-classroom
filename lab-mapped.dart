@@ -14,6 +14,13 @@ void main(){
   List<String> data = ['A','B','C'];
   Map<int, String> item = data.asMap(); //List to Map
   print(item);
+  
+  //Map to List 
+  List en =  color.keys.toList();
+  print(en);
+  
+  List th = color.values.toList();
+  print(th);
     
 
 }
