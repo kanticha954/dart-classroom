@@ -9,6 +9,9 @@ void main(){
   
   color.remove("green"); //remove from map
   print(color); 
+  
+  List<String> colorList = ["red" , "green"];
+  print(colorList);
 
   
   List<String> data = ['A','B','C'];
